@@ -1,0 +1,39 @@
+project:
+  type: book
+
+book:
+  title: "亲密关系"
+  author: "刘亚林"
+  date: "5/2/2026"
+  
+  chapters:
+    - index.qmd
+    - Chap1.qmd
+    - Chap2.qmd
+    - Chap3.qmd
+    - Chap4.qmd
+    - Chap5.qmd
+    - Chap6.qmd
+    - Chap7.qmd
+    - Chap8.qmd
+    - Chap9.qmd
+    - Chap10.qmd
+    - Chap11.qmd
+    - Chap12.qmd
+    - Chap13.qmd
+    - Chap14.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+
+
