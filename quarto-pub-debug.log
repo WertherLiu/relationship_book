@@ -1,0 +1,18 @@
+Quarto version: 1.8.27
+
+projectContext: Found Quarto project in C:\Users\12929\Desktop\testbook
+
+(ERROR) No _publish.yml file available (_publish.yml specifying a destination required for non-interactive publish)
+
+Stack trace:
+    at resolveDeployment (file:///C:/Users/12929/AppData/Local/Programs/Quarto/bin/quarto.js:159460:13)
+    at eventLoopTick (ext:core/01_core.js:178:7)
+    at async publishAction (file:///C:/Users/12929/AppData/Local/Programs/Quarto/bin/quarto.js:160053:7)
+    at async _Command.actionHandler (file:///C:/Users/12929/AppData/Local/Programs/Quarto/bin/quarto.js:160018:9)
+    at async _Command.execute (file:///C:/Users/12929/AppData/Local/Programs/Quarto/bin/quarto.js:10978:7)
+    at async _Command.parseCommand (file:///C:/Users/12929/AppData/Local/Programs/Quarto/bin/quarto.js:10855:14)
+    at async quarto (file:///C:/Users/12929/AppData/Local/Programs/Quarto/bin/quarto.js:176680:5)
+    at async file:///C:/Users/12929/AppData/Local/Programs/Quarto/bin/quarto.js:176708:5
+    at async file:///C:/Users/12929/AppData/Local/Programs/Quarto/bin/quarto.js:176563:14
+    at async mainRunner (file:///C:/Users/12929/AppData/Local/Programs/Quarto/bin/quarto.js:176565:5)
+
